@@ -5,7 +5,7 @@
 }
 
 body {
-  margin-top: 100px;
+  margin: 100px 0;
 }
 
 h1,
@@ -85,10 +85,32 @@ p {
   text-decoration: underline;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 576px) {
   h1 {
     font-size: 50px;
+    line-height: 1.5;
   }
+
+  .greeting-heading {
+font-size: 35px;
+  }
+
+  .project-heading {
+
+    text-align: center;
+    font-size: 35px;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+
   .contact-heading {
     font-size: 28px;
   }
